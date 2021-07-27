@@ -189,7 +189,7 @@ transition:dsagytrfbvawqUDA .3s,border .3s,border-radius .3s,box-shadow .3s,-web
 .elementor-row-2{
     width: 100%;
     display: flex;
-    margin-left: -80px;
+    /* margin-left: -80px; */
 }
 .elementor-column {
     position: relative;
@@ -199,6 +199,13 @@ transition:dsagytrfbvawqUDA .3s,border .3s,border-radius .3s,box-shadow .3s,-web
 }
 .elementor-column-wrap {
     width: 80%;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    font-family: "Roboto", Sans-serif;
+}
+.elementor-column-wrap-22 {
+    width: 95%;
     position: relative;
     padding: 10px;
     display: flex;
@@ -298,6 +305,17 @@ p {
     -webkit-align-content: flex-start;
     -ms-flex-line-pack: start;
     align-content: flex-start;
+}
+.elementor-widget-wrap-cop-off{
+    position: relative;
+    width: 100%;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    margin-left: -23px;
 }
 
 .elementor *, .elementor :after, .elementor :before {
@@ -419,19 +437,16 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 
 .elementor-widget-container-1,.elementor-widget-container-01{
-    width: 435px;
+    width: 385px;
     height: 235px;
     transition: dsagytrfbvawqUDA .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
     margin-bottom: 15px;
     box-shadow: 2px 2px 10px 0px rgb(32 33 89 / 50%);
 }
 .elementor-widget-container-2{
-    width: 896px;
-    height: 228px;
-    margin-left: -80px;
+    width: 790px;
+    height: 260px;
     transition: dsagytrfbvawqUDA .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
-    /* padding: 1px 18px 18px 18px; */
-    /* border-radius: 5px 5px 5px 5px; */
     margin-bottom: 15px;
     box-shadow: 2px 2px 10px 0px rgb(32 33 89 / 50%);
 
@@ -541,7 +556,7 @@ h3 {
     width: 70%;
 }
 .elementor-widget-container-card{
-    width: 300px;
+    width: 265px;
     height: 115px;
     transition: dsagytrfbvawqUDA .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
     margin-bottom: 40px;
@@ -646,9 +661,6 @@ element.style {
 .elementor-section.elementor-section-boxed>.elementor-container {
     max-width: 1140px;
 }
-.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
-    padding: 10px;
-}
 .elementor-39 .elementor-element.elementor-element-65f330c {
     text-align: justify;
 }
@@ -659,7 +671,7 @@ element.style {
     width: 100%;
 }
 .elementor-row-img{
-    margin-left: 80px;
+    margin-left: 130px;
     width: 100%;
     display: flex;
 }
@@ -704,6 +716,9 @@ element.style {
         height: 50px;
         padding: 0 15px;
     }
+    .quick-contact-list li {
+        margin-left: 25px;
+    }
     .navbar{
         width: 127%;
         height: 65px;
@@ -735,9 +750,9 @@ element.style {
     }
     .img-slide{
         margin-top: 40px;
-        margin-left: 92px;
+        margin-left: 77px;
         height: 115px;
-        width: 400px;
+        width: 452px;
     }
     .images {
         margin-left: 40px;
@@ -771,6 +786,10 @@ element.style {
     }
     .elementor-row-2{
         flex-direction: column;
+        margin-left: -73px;
+    }
+    .elementor-widget-wrap-cop-off{
+        margin-left: 5px;
     }
     .elementor-widget-container-cor-off {
         width: 427px;
@@ -802,7 +821,7 @@ element.style {
     }
 /* fourth section */
 .elementor-widget-container-4{
-    margin-left: 60px;
+    margin-left: 5px;
 }
 .elementor-widget-container-3{
     width: 805px;
@@ -810,7 +829,7 @@ element.style {
 }
 .elementor-accordion-item-2{
     width: 120%;
-    margin-left: -67px;
+    margin-left: -34px;
 }
 /* fifth section */
 .elementor-row-img{
@@ -821,8 +840,8 @@ element.style {
     margin-left: -23px;
 }
 .product-info{
-    width: 90%;
-    margin-left: 20px;
+    width: 100%;
+    margin-left: -35px;
 }
 .elementor-container-22 {
     margin-left: -70px;
