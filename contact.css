@@ -11,7 +11,7 @@
 	background: #8e2dec;
 } */
 .contact-in{
-	width: 80%;
+	width: 65%;
 	height: auto;
 	margin: auto;
 	margin-top: 20px;
@@ -19,18 +19,17 @@
 	flex-wrap: wrap;
 	padding: 10px;
 	border-radius: 10px;
+	font-family: 'Times New Roman', Times, serif;
 	background: #fff;
 	box-shadow: 0px 0px 10px 0px #666;
 }
 .contact-map{
-	width: 100%;
 	height: auto;
 	flex: 50%;
 }
 .contact-form{
-	width: 100%;
 	height: auto;
-	flex: 50%;
+	flex: 40%;
 }
 .contact-form h1{
 	margin-bottom: 10px;
@@ -41,7 +40,7 @@
 	height: 40px;
 	color: #000;
 	border: 1px solid #bcbcbc;
-	border-radius: 50px;
+	border-radius: 0px;
 	outline: none;
 	margin-bottom: 20px;
 	padding: 15px;
@@ -50,16 +49,18 @@
 	color: #aaa;
 }
 .contact-form-txtarea{
-	width: 100%;
+	width: 97%;
 	height: 130px;
 	color: #000;
 	border: 1px solid #bcbcbc;
-	border-radius: 20px;
+	border-radius: 0px;
 	outline: none;
 	margin-bottom: 20px;
 	padding: 15px;
 }
 .captcha {
+	height: 75px;
+    width: 26%;
 	background-color:#f9f9f9;
 	border:2px solid #d3d3d3;
 	border-radius:5px;
@@ -69,35 +70,33 @@
 	align-items:center;
 }
 .card-container{
-    margin-left: 40px;
+    margin-left: 20px;
 }
-@media screen and (max-width: 500px) {
-	.captcha {
-		flex-direction:column;
-	}
-	.text {
-		margin:.5em!important;
-		text-align:center;
-	}
-	.logo {
-		align-self: center!important;
-	}
-	.spinner {
-		margin:2em .5em .5em .5em!important;
-	}
+.company-name{
+	font-size: 20px;
+}
+.company-addr{
+	margin-top: 10px;
+    height: 47px;
+	margin-left: 4px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.office-name{
+	margin-top: 8px;
 }
 
 .text {
-	font-size:1.75em;
+	font-size: 15px;
 	font-weight:500;
 	margin-right:1em;
 }
 .spinner {
 	position:relative;
-	width:2em;
-	height:2em;
+	width:1em;
+	height:1em;
 	display:flex;
-	margin:2em 1em;
+	margin:0em 1em;
 	align-items:center;
 	justify-content:center;
 }
@@ -167,7 +166,7 @@ input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 
 	display:flex;
 	flex-direction:column;
 	align-items:center;
-	height:100%;
+	height:85%;
 	align-self:flex-end;
 	margin:0.5em 1em;
 }
@@ -178,14 +177,14 @@ input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 
 .logo p {
 	color:#9d9ba7;
 	margin:0;
-	font-size:1em;
+	font-size:10px;
 	font-weight:700;
 	margin:.4em 0 .2em 0;
 }
 .logo small {
 	color:#9d9ba7;
 	margin:0;
-	font-size:.8em;
+	font-size:10px;
 }
 @keyframes spin {
 	10% {
@@ -235,7 +234,8 @@ input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 
 }
 .button{
     text-align: center;
-    width: 10%;
+    width: 12%;
+	height: 48px;
     border: none;
     outline: none;
     border-radius: 50px;
@@ -243,13 +243,14 @@ input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 
     padding: 10px 0 10px;
     cursor: pointer;
     font-size: 18px;
-    margin-left: 500px;
+    margin-left: 650px;
     margin-top: 25px;
 }
-.container {
+.card1-container {
     min-height: 100vh;
-    width: 85%;
+    width: 65%;
     margin: auto;
+	margin-left: 258px;
     display: flex;
     flex-flow: row wrap;
     align-content: flex-start;
@@ -260,26 +261,74 @@ input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 
   h1{
       color: darkblue;
   }
-  .card {
+  .office-card {
     margin: 1.5em;
-    height: 17em;
+    height: 250px;
 	margin-top: 10px;
-    max-width: 35em;
+    max-width: 44%;
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-
+	font-family: 'Times New Roman', Times, serif;
     background-color: white;
     box-shadow: 2px 2px 10px 0px rgb(32 33 89 / 50%);
   }
   .fa-phone {
-    font-size: 22px;
+    font-size: 17px;
     color: #f4a024;
+	font-family: 'Times New Roman', Times, serif;
 }
 strong{
     font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
 }
 .fa-envelope {
     font-size: 16px;
     color: #f4a024;
+}
+iframe{
+	width: 520px;
+	height: 430px;
+	border: 0px;
+	margin-left: 5px;
+}
+/* media query */
+@media only screen and (max-width: 767px) {
+	.contact-in{
+		width: 100%;
+    margin-left: 40px;
+	}
+	iframe{
+		width:430px ;
+		margin-left: 10px;
+	}
+	.captcha {
+			/* height: 75px; */
+			width: 50%;
+			margin-left: 10px;
+			margin-top: 10px;
+	}
+	.logo img {
+		height: 1em;
+		width: 1em;
+	}
+	.logo p{
+		font-size: 12px;
+	}
+	.text {
+		margin:.5em!important;
+		text-align:center;
+	}
+	.button{
+		width: 35%;
+    margin-left: 180px;
+	}
+	.office-card{
+		max-width: 100%;
+	}
+	.card1-container {
+		margin-left: 30px;
+		width: 100%;
+		flex-direction: column;
+	}
 }
