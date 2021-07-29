@@ -38,6 +38,53 @@ li a:hover{
     color: lightgray;
     background-color: transparent;
 }
+
+/* submenu */
+/* Hide Dropdowns by Default */
+ul ul {
+    display: none;
+    position: absolute; 
+    top: 169px; /* the height of the main nav */
+    margin-left: -127px;
+    background-color:#f4a024;
+    transform: scale(1.1);
+}
+
+    
+/* Display Dropdowns on Hover */
+ ul li:hover > ul {
+    display:inline-block;
+}
+marker{
+        color: white;
+    }
+/* Fisrt Tier Dropdown */
+ ul ul li {
+    width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+}
+
+/* Second, Third and more Tiers */
+ul ul ul li {
+    position: relative;
+    top:-60px; 
+    left:170px;
+}
+.submenu{
+    color: black;
+    font-size: 13px;
+}
+.submenu:hover{
+        color: white;
+}
+    
+/* Change this in order to change the Dropdown symbol */
+li > .submenu:after { content:  ' +'; }
+li > .submenu:only-child:after { content: ''; }
+/* close submenu */
+
 /* heading section */
 .heading{
     height: 75px;
@@ -101,6 +148,7 @@ li a:hover{
     overflow: hidden;
     border: 0;
     margin: 0;
+    margin-bottom: 15px;
     top: 200px;
     list-style-type: none;
     list-style: none;
@@ -120,7 +168,7 @@ li a:hover{
 .img-slide{
     display: flex;
     position: absolute;
-    top: 180px;
+    top: 222px;
     left: 0;
     margin-left: 167px;
     animation: slides 3s infinite;

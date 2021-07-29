@@ -45,9 +45,14 @@
            <div class="navbar">
                <ul class="navbar-list">
                    <li class="list-item"><a class="mega-menu-link-home" href="./index.html" tabindex="0">Home</a></li>
-                   <li class="list-item"><a class="mega-menu-link" onclick="showMainPage('support')" tabindex="0">Support</a></li>
+                   <li class="list-item"><a class="mega-menu-link" tabindex="0">Support</a>
+                    <ul>
+                        <li><a class="submenu" onclick="showMainPage('support')">Rooftoop & EPC Solutions</a></li>
+                        <li><a class="submenu" onclick="showMainPage('AMC')">AMC</a></li>
+                    </ul>
+                    </li>
                    <li class="list-item"><a class="mega-menu-link" onclick="showMainPage('gallary')" tabindex="0">Gallery</a></li>
-                   <li class="list-item"><a class="mega-menu-link" onclick="showMainPage('IT')" tabindex="0">IT</a></li>
+                   <li class="list-item"><a class="mega-menu-link" tabindex="0">IT</a></li>
                    <li class="list-item"><a class="mega-menu-link" onclick="showMainPage('contact')" tabindex="0">Contact Us</a></li>
                </ul>
            </div>
@@ -380,7 +385,7 @@ Education Hub by <a href="https://wenthemes.com/" rel="designer" target="_blank"
             {
                 document.getElementById("mainContent").innerHTML= gallary;
             }
-            else if(page==='IT'){
+            else if(page==='AMC'){
                 document.getElementById("mainContent").innerHTML=amc;
             }
 }
