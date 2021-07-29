@@ -59,6 +59,12 @@ img:hover{
     opacity: .5;
     transition: 9s;
 }
+/* media query */
+@media only screen and (max-width: 767px){
+    .single-img{
+        margin-top: 15px;
+    }
+}
 
 
 

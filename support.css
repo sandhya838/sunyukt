@@ -198,6 +198,7 @@ p {
 }
 .elementor-widget-container-system {
     width: 100%;
+    height: auto;
     margin-left: 0px;
     margin-top: 30px;
 }
@@ -213,6 +214,7 @@ p {
 }
 .m_-723663970761592205elementor-text-editor{
     margin-top: -516px;
+    width: 360px;
 }
 .elementor-row-supportCon2{
     flex-direction: column;
