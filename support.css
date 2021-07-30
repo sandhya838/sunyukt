@@ -6,9 +6,9 @@
     font-family: 'Roboto', sans-serif;
 }
 .sectionMain{
-    width: 80%;
+    width:67%;
     height: auto;
-    margin-left: 200px;
+    margin-left: 295px;
     height: auto;
     /* background-color: burlywood; */
 }
@@ -27,6 +27,7 @@ section{
 /* section 1st */
 .support-heading{
     width: 100%;
+    margin-top: 35px;
 }
 .support-heading-container{
     margin-top: 10px;
@@ -35,10 +36,13 @@ section{
 }
 .support-heading-container-title{
     color: #10164e;
+    font-size: 19px;
+    line-height: 1;
+    letter-spacing: 1px;
 }
 /* section 2nd */
 .elementor-row-supportCon-1{
-    width: 97%;
+    width:100%;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -46,14 +50,15 @@ section{
     /* background-color: cadetblue; */
 }
 .elementor-widget-container-box {
-    width: 30%;
+    width: 32%;
+    height: 266px;
     padding: 9px 9px 9px 9px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 0px 10px 0px rgb(39 44 109 / 50%);
 }
 .support-section-3{
     width: 90%;
-    padding: 15px;
+    /* padding: 15px; */
 }
  .elementor-text-editor {
     text-align: justify;
@@ -65,6 +70,14 @@ section{
     font-weight: 400;
 }
 /* section 3rd */
+.hr-tag{
+    background-color:black;
+    border: 0;
+    height: 0.7px;
+    margin-bottom: 1.5em;
+    margin-left: 0px;
+    width: 100%;
+}
 .wp-caption-text {
     text-align: center;
     margin: 8px 0px;
@@ -82,6 +95,8 @@ b, strong {
 }
 ul {
     list-style: disc;
+    line-height: 1.5;
+    font-size: 15px;
 }
 p {
     color: #000000;
@@ -89,35 +104,31 @@ p {
     line-height: 1.5;
     text-align: justify;
     margin: 0 0 15px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* section 4th */
     /* subsection-4-1 */
     .elementor-widget-container-subsection{
-        margin-left: 200px;
+        margin-left: 0px;
     } 
     /*subsection-4-3  */
     .elementor-row-supportCon{
-        width: 80%;
-        margin-left: 200px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         margin-top: 20px;
-        height: 292px;
-        /* background-color: cadetblue; */
+        height: 260px;
     }
     .elementor-row-supportCon2{
-        width: 80%;
-        margin-left: 200px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         margin-top: 20px;
-        height: 292px;
-        /* background-color: cadetblue; */
+        height: 220px;
     }
     .elementor-widget-container-system {
-        width: 30%;
+        width: 32%;
         height: 240px;
         padding: 9px 9px 9px 9px;
         border-radius: 10px 10px 10px 10px;
@@ -140,31 +151,35 @@ p {
 /* section-5 */
 
 .m_-723663970761592205elementor-widget-container{
-    margin-left: 165px;
-    width: 75%;
-    padding-left: 35px;
-    /* background-color: palegoldenrod; */
+    width: 100%;
+    line-height: 1.5;
+    font-size: 15px;
 }
  
 /* section-6 */
 .elementor-heading-title{
-    margin-left: 200px;
+    margin-left: 0px;
+    margin-left: 0px;
+    font-size: 19px;
+    letter-spacing: 1px;
 }
 /* section-7 */
 .elementor-heading-title-2{
-    margin-left: 200px;
+    margin-left: 0px;
 }
 .elementor-text-editor-2 {
     text-align: justify;
-    margin-left: 200px;
 }
 .mz-figure{
     height: 300px;
 }
+.mz-hint, .mz-loading {
+    background: white;
+}
 
 /* section-8 */
 .elementor-heading-title2{
-        margin-left: 200px;
+        margin-left: 0px;
 }
 /*close support css */
 @media only screen and (max-width: 767px){

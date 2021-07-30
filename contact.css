@@ -12,7 +12,7 @@
 	background: #8e2dec;
 } */
 .contact-in{
-	width: 65%;
+	width: 77%;
 	height: auto;
 	margin: auto;
 	margin-top: 20px;
@@ -20,21 +20,25 @@
 	flex-wrap: wrap;
 	padding: 10px;
 	border-radius: 0%;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Roboto', sans-serif;
 	background: #fff;
-	box-shadow: 0px 0px 10px 0px #666;
+	/* box-shadow: 0px 0px 10px 0px #666; */
 }
 .contact-map{
-	height: auto;
-	flex: 50%;
+	width: 550px;
+    height: 465px;
+    flex: 50%;
+    margin-top: 40px;
 }
 .contact-form{
 	height: auto;
 	flex: 40%;
 }
 .contact-form h1{
-	margin-bottom: 10px;
+	margin-bottom: 17px;
+	margin-left: -417px;
 	text-align: center;
+	font-size: 20px;
 }
 .contact-form-txt{
 	width: 98%;
@@ -62,6 +66,7 @@
 .captcha {
 	height: 75px;
     width: 26%;
+	margin-top: -64px;
 	background-color:#f9f9f9;
 	border:2px solid #d3d3d3;
 	border-radius:5px;
@@ -71,20 +76,22 @@
 	align-items:center;
 }
 .card-container{
-    margin-left: 20px;
+    margin-left: 5px;
 }
 .company-name{
-	font-size: 20px;
+	font-size: 17px;
+	color: black;
+	margin-bottom: 4px;
 }
 .company-addr{
-	margin-top: 10px;
+	margin-top: 10px; 
     height: 47px;
-	margin-left: 4px;
-    margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 15px;
+    margin: 0px;
 }
 .office-name{
 	margin-top: 8px;
+	font-size: 17px;
 }
 
 .text {
@@ -104,8 +111,8 @@
 input[type="checkbox"] { position: absolute; opacity: 0; z-index: -1; }
 input[type="checkbox"]+.checkmark {
 	display:inline-block;
-	width:2em;
-	height:2em;
+	width: 1.8em;
+    height: 1.6em;
 	background-color:#fcfcfc;
 	border:2.5px solid #c3c3c3;
 	border-radius:3px;
@@ -235,53 +242,53 @@ input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 
 }
 .button{
     text-align: center;
-    width: 12%;
-	height: 48px;
+    width: 6%;
+	height: 34px;
     border: none;
     outline: none;
-    border-radius: 50px;
-    background: rgb(123, 106, 184);
-    padding: 10px 0 10px;
+    /* border-radius: 50px; */
+    background: #10164e;
+	color: white;
     cursor: pointer;
     font-size: 18px;
-    margin-left: 650px;
-    margin-top: 25px;
+    margin-left: 180px;
+    margin-top: -10px;
 }
 .card1-container {
-    min-height: 100vh;
-    width: 65%;
+    min-height: 30vh;
+    width: 75%;
     margin: auto;
-	margin-left: 258px;
+	margin-left: 144px;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     align-content: flex-start;
     align-items: center;
     padding: 0.9em;
    
   }
   h1{
-      color: darkblue;
+      color: #10164e;
   }
   .office-card {
     margin: 1.5em;
-    height: 250px;
+    padding: 7px;
 	margin-top: 10px;
-    max-width: 44%;
-    flex: 1 1 auto;
+    width: 32%;;
     display: flex;
-    flex-direction: column;
-	font-family: 'Times New Roman', Times, serif;
+    flex-direction: row;
+	font-family: 'Roboto', sans-serif;
     background-color: white;
+	border-radius: 5px 5px 5px 5px;
     box-shadow: 2px 2px 10px 0px rgb(32 33 89 / 50%);
   }
   .fa-phone {
     font-size: 17px;
     color: #f4a024;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Roboto', sans-serif;
 }
 strong{
     font-weight: bold;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Roboto', sans-serif;
 }
 .fa-envelope {
     font-size: 16px;
@@ -289,7 +296,7 @@ strong{
 }
 iframe{
 	width: 520px;
-	height: 430px;
+	height: 475px;
 	border: 0px;
 	margin-left: 5px;
 }

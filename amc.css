@@ -7,11 +7,19 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.amc-container{
+    width: 88%;
+    margin-left: 100px;
+    font-size: 20px;
+}
 .elementor-widget-container-amc{
     margin-top: 20px;
+    width: 85%;
+    margin-left: 200px;
 }
 .elementor-text-editor-amc{
-    padding-top: 14px;
+    padding-top: 0px;
+    margin-left: 0px;
 }
 .subheading-amc{
     margin-left: -112px;
@@ -31,8 +39,10 @@ body{
 .amch4{
     color: #10164e;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.9px;
     margin: 0 0 15px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .amcpara{
     color: #000000;

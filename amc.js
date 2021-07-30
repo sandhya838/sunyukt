@@ -2,7 +2,7 @@ const amc=`<div class="amc-container">
 <!--title section -->
 <section class="elementor-element elementor-element-ff8ada1 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ff8ada1" data-element_type="section">
     <div class="elementor-widget-container-amc">
-        <h2 class="elementor-heading-title elementor-size-default">After Sales Support</h2>     </div>
+        <h2 class="elementor-heading-title elementor-size-default" style="letter-spacing:0px;">After Sales Support</h2>     </div>
 </section>
 <!-- subsection -->
     <div class="elementor-text-editor-amc elementor-clearfix"><div class="subheading-amc"><p>Our After sales Support is equipped with below points :</p><div></div>

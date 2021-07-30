@@ -1,6 +1,6 @@
 const gallary = `<div class="galcontainer">
 <h1>Synopsis of project</h1>
-<hr>
+<hr class="hr-tag-gal">
 <h2>2KVA Roof Top, Uran</h2>
 
 <div class="gallery-area">
@@ -20,7 +20,7 @@ const gallary = `<div class="galcontainer">
         <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Uran-Project-4-150x150.jpg"></a>
     </div>
 </div><br><br>
-<hr>
+<hr class="hr-tag-gal">
 
 <h2>15KVA Roof Top, Agrawal Hospital, Nanded</h2>
 
@@ -41,7 +41,7 @@ const gallary = `<div class="galcontainer">
         <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Agrawal-Hospital-4-1024x768-1-150x150.jpg"></a>
     </div>
 </div><br><br>
-<hr>
+<hr class="hr-tag-gal">
 
 <h2>8KVA Roof Top, Susmanjali Avenue, Pimpale Saudagar, Pune</h2>
 
@@ -62,7 +62,7 @@ const gallary = `<div class="galcontainer">
         <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Susmanjali-Avenue-4-150x150.jpg"></a>
     </div>
 </div><br><br>
-<hr>
+<hr class="hr-tag-gal">
 
 <h2>2KVA Roof Top, Nanded</h2>
 
@@ -83,7 +83,7 @@ const gallary = `<div class="galcontainer">
         <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Roof-Top-4-150x150.jpeg"></a>
     </div>
 </div><br><br>
-<hr>
+<hr class="hr-tag-gal">
 
 <h2>2KVA Roof Top, Deshmukh hospital, Amravti</h2>
 
@@ -104,7 +104,7 @@ const gallary = `<div class="galcontainer">
         <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Deshmukh-hospital-4-150x150.png"></a>
     </div>
 </div><br><br>
-<hr>
+<hr class="hr-tag-gal">
 
 <h2>2KVA Roof Top, Nanded</h2>
 
@@ -125,7 +125,7 @@ const gallary = `<div class="galcontainer">
         <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Nanded-4-150x150.jpeg"></a>
     </div>
 </div><br><br>
-<hr>
+<hr class="hr-tag-gal">
 
 <h2>BP Petrol Pump</h2>
 
@@ -146,7 +146,7 @@ const gallary = `<div class="galcontainer">
         <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/BP-Petrol-Pump-4-150x150.jpeg"></a>
     </div>
 </div><br><br>
-<hr>
+<hr class="hr-tag-gal">
 
 
 <h2>Indian Oil Pump</h2>
@@ -168,7 +168,7 @@ const gallary = `<div class="galcontainer">
         <a><img src=""></a>
     </div>
 </div><br><br>
-<hr>
+<hr class="hr-tag-gal">
 
 
 
