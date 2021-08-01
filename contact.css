@@ -36,7 +36,7 @@
 }
 .contact-form h1{
 	margin-bottom: 17px;
-	margin-left: -417px;
+	margin-left: -355px;
 	text-align: center;
 	font-size: 20px;
 }
@@ -314,7 +314,7 @@ iframe{
 			/* height: 75px; */
 			width: 50%;
 			margin-left: 10px;
-			margin-top: 10px;
+			margin-top: 25px;
 	}
 	.logo img {
 		height: 1em;
@@ -329,10 +329,12 @@ iframe{
 	}
 	.button{
 		width: 35%;
-    margin-left: 180px;
+		margin-left: 67px;
+		margin-top: 10px;
 	}
 	.office-card{
-		max-width: 100%;
+		width: 100%;
+    margin-left: 60px;
 	}
 	.card1-container {
 		margin-left: 30px;

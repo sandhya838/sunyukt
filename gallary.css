@@ -16,8 +16,8 @@
 } */
 .galcontainer{
     margin-top: 20px;
-    width: 75%;
-    margin-left: 100px;
+    width: 100%;
+    margin-left: 10px
 }
 .galcontainer h1{
     color: #10164e;
@@ -67,5 +67,8 @@ img:hover{
 @media only screen and (max-width: 767px){
     .single-img{
         margin-top: 15px;
+    }
+    .hr-tag-gal {
+        width: 86%;
     }
 }

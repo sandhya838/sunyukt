@@ -7,9 +7,15 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.elementor-heading-title-amc {
+    margin-left: 0px;
+    margin-left: 0px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
 .amc-container{
-    width: 88%;
-    margin-left: 100px;
+    width: 83%;
+    margin-left: 162px;
     font-size: 20px;
 }
 .elementor-widget-container-amc{
@@ -53,7 +59,11 @@ body{
 }
 @media only screen and (max-width: 767px){
     .amc-container{
-        margin-top: 65px;
+        width: 117%;
+        margin-left: 32px;
+    }
+    .elementor-widget-container-amc {
+         margin-left: 0px;
     }
     .elementor-text-editor-amc {
         margin-left: 0px;

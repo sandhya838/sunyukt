@@ -152,7 +152,7 @@ const support = `
             <div class="elementor-text-editor-2 elementor-clearfix"><p>Commissioning is a way to formalize quality control of installed PV systems. The process ensures that systems are safe and performing as per their specifications.&nbsp; &nbsp; The commissioning process is typically applied to entire buildings. To set a framework for PV commissioning, it is useful to examine the total building commissioning process.</p></div>
         </section>
         <section class="elementor-element elementor-element-deee329 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="deee329" data-element_type="section">
-            <div class="elementor-row-supportCon">
+            <div class="elementor-row-supportCon-2">
                 <div class="elementor-image">
                     <img width="265" height="199" src="https://sunyukt.com/wp-content/uploads/2018/06/project-6-1024x768.jpg" class="attachment-large size-large" alt="Commissioning1">											
                 </div>
