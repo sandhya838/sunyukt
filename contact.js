@@ -10,13 +10,13 @@ const contact= `<!DOCTYPE html>
 </head>
 <body>
 <div class="contact-in">
-<div class="contact-form">
     <h1><u>Contact Us</u></h1>
-    <form>
-        <label>Name<input type="text" placeholder="Enter Full Name" class="contact-form-txt" /></label><br>
-        <label>Email<input type="text" placeholder="Enter Your Email" class="contact-form-txt" /></label><br>
-        <label>Subject<input type="text" placeholder="Enter Subject" class="contact-form-txt" /></label>
-        <label>Message<textarea placeholder="Message" class="contact-form-txtarea"></textarea></label>
+<div class="contact-form">
+    <form action="POST" data-netlify="true">
+        <label>Name<input type="text" name="form-name" placeholder="Enter Full Name" class="contact-form-txt" required /></label><br>
+        <label>Email<input type="text" name="form-name" placeholder="Enter Your Email" class="contact-form-txt" required /></label><br>
+        <label>Subject<input type="text" name="form-name" placeholder="Enter Subject" class="contact-form-txt" required /></label>
+        <label name="form-name">Message<textarea placeholder="Message" class="contact-form-txtarea" required ></textarea></label>
     </form>
 </div>
 <div class="contact-map">

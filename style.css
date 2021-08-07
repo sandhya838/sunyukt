@@ -55,6 +55,7 @@ li a{
 li a:hover{
     color: lightgray;
     background-color: transparent;
+    cursor: pointer;
 }
 
 /* submenu */
