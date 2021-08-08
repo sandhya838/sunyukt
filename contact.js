@@ -12,20 +12,36 @@ const contact= `<!DOCTYPE html>
 <div class="contact-in">
     <h1><u>Contact Us</u></h1>
 <div class="contact-form">
-    <form action="POST" data-netlify="true" name="contact ">
-        <label>Name<input type="text" name="form-name" placeholder="Enter Full Name" class="contact-form-txt" required /></label><br>
-        <label>Email<input type="text" name="form-name" placeholder="Enter Your Email" class="contact-form-txt" required /></label><br>
-        <label>Subject<input type="text" name="form-name" placeholder="Enter Subject" class="contact-form-txt" required /></label>
-        <label name="form-name">Message<textarea placeholder="Message" class="contact-form-txtarea"required ></textarea></label>
-        <button class="button" type="submit" >Send</button>
+    <form>
+        <label>Name<input type="text" placeholder="Enter Full Name" class="contact-form-txt" required /></label><br>
+        <label>Email<input type="text" placeholder="Enter Your Email" class="contact-form-txt" required /></label><br>
+        <label>Subject<input type="text" placeholder="Enter Subject" class="contact-form-txt" required /></label>
+        <label>Message<textarea placeholder="Message" class="contact-form-txtarea"required ></textarea></label>
     </form>
 </div>
 <div class="contact-map">
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30243.556264071412!2d73.76274736522782!3d18.644037689566854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9c02954e8cb%3A0x525d708de1d526f2!2sAkurdi%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1627092732968!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
 </div>
+<div class="captcha">
+    <div class="spinner">
+        <label>
+            <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
+            <span class="checkmark"><span>&nbsp;</span></span>
+        </label>
+    </div>
+    <div class="text">
+        I'm not a robot
+    </div>
+    <div class="logo">
+        <img src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/" />
+        <p>reCAPTCHA</p>
+        <small>Privacy - Terms</small>
+    </div>
+</div><br> <br>
 
-
+</div>
+<button class="button">Send</button>
 <div class="card1-container">
 <div class="office-card">
     <div class="card-container">

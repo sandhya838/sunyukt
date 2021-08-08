@@ -76,6 +76,7 @@ section{
     height: 0.7px;
     margin-bottom: 1.5em;
     margin-left: 0px;
+    margin-top: 20px;
     width: 100%;
 }
 .wp-caption-text {
@@ -122,10 +123,16 @@ p {
     }
     .elementor-row-supportCon2{
         width: 100%;
-        display: flex;
+        display: flex;;
         justify-content: space-between;
         margin-top: 20px;
         height: 220px;
+    }
+    .elementor-row-supportCon-2{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 8px;
     }
     .elementor-widget-container-system {
         width: 32%;
