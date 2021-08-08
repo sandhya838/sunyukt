@@ -251,8 +251,8 @@ input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 
 	color: white;
     cursor: pointer;
     font-size: 18px;
-    margin-left: 180px;
-    margin-top: -10px;
+    margin-left: -290px;
+    margin-top: 45px;
 }
 .card1-container {
     min-height: 30vh;
