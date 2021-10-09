@@ -5,19 +5,19 @@ const gallary = `<div class="galcontainer">
 
 <div class="gallery-area">
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Uran-Project-1-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Uran-Project-1-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Uran-Project-2-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Uran-Project-2-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Uran-Project-3-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Uran-Project-3-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Uran-Project-4-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Uran-Project-4-150x150.jpg"></a>
     </div>
 </div><br><br>
 <hr class="hr-tag-gal">
@@ -26,19 +26,19 @@ const gallary = `<div class="galcontainer">
 
 <div class="gallery-area">
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Agrawal-Hospital-1-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Agrawal-Hospital-1-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Agrawal-Hospital-2-150x150.jpeg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Agrawal-Hospital-2-150x150.jpeg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Agrawal-Hospital-3-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Agrawal-Hospital-3-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Agrawal-Hospital-4-1024x768-1-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Agrawal-Hospital-4-1024x768-1-150x150.jpg"></a>
     </div>
 </div><br><br>
 <hr class="hr-tag-gal">
@@ -47,19 +47,19 @@ const gallary = `<div class="galcontainer">
 
 <div class="gallery-area">
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Susmanjali-Avenue-1-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Susmanjali-Avenue-1-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Susmanjali-Avenue-2-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Susmanjali-Avenue-2-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Susmanjali-Avenue-3-1-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Susmanjali-Avenue-3-1-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Susmanjali-Avenue-4-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Susmanjali-Avenue-4-150x150.jpg"></a>
     </div>
 </div><br><br>
 <hr class="hr-tag-gal">
@@ -68,19 +68,19 @@ const gallary = `<div class="galcontainer">
 
 <div class="gallery-area">
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Roof-Top-1-150x150.jpeg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Roof-Top-1-150x150.jpeg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Roof-Top-2-1-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Roof-Top-2-1-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Roof-Top-3-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Roof-Top-3-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Roof-Top-4-150x150.jpeg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Roof-Top-4-150x150.jpeg"></a>
     </div>
 </div><br><br>
 <hr class="hr-tag-gal">
@@ -89,19 +89,19 @@ const gallary = `<div class="galcontainer">
 
 <div class="gallery-area">
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Deshmukh-hospital-1-150x150.png"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Deshmukh-hospital-1-150x150.png"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Deshmukh-hospital-2-150x150.png"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Deshmukh-hospital-2-150x150.png"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Deshmukh-hospital-3-150x150.png"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Deshmukh-hospital-3-150x150.png"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Deshmukh-hospital-4-150x150.png"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Deshmukh-hospital-4-150x150.png"></a>
     </div>
 </div><br><br>
 <hr class="hr-tag-gal">
@@ -110,19 +110,19 @@ const gallary = `<div class="galcontainer">
 
 <div class="gallery-area">
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Nanded-1-150x150.jpeg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Nanded-1-150x150.jpeg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Nanded-2-150x150.jpeg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Nanded-2-150x150.jpeg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Nanded-3-150x150.jpeg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Nanded-3-150x150.jpeg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Nanded-4-150x150.jpeg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Nanded-4-150x150.jpeg"></a>
     </div>
 </div><br><br>
 <hr class="hr-tag-gal">
@@ -131,19 +131,19 @@ const gallary = `<div class="galcontainer">
 
 <div class="gallery-area">
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/BP-Petrol-Pump-1-150x150.jpeg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/BP-Petrol-Pump-1-150x150.jpeg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/BP-Petrol-Pump-2-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/BP-Petrol-Pump-2-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/BP-Petrol-Pump-3-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/BP-Petrol-Pump-3-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/BP-Petrol-Pump-4-150x150.jpeg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/BP-Petrol-Pump-4-150x150.jpeg"></a>
     </div>
 </div><br><br>
 <hr class="hr-tag-gal">
@@ -153,15 +153,15 @@ const gallary = `<div class="galcontainer">
 
 <div class="gallery-area">
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Indian-Oil-Pump-1-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Indian-Oil-Pump-1-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Indian-Oil-Pump-2-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Indian-Oil-Pump-2-150x150.jpg"></a>
     </div>
 
     <div class="single-img">
-        <a href="/"><img src="https://sunyukt.com/wp-content/uploads/2018/06/Indian-Oil-Pump-3-150x150.jpg"></a>
+        <a><img src="https://sunyukt.com/wp-content/uploads/2018/06/Indian-Oil-Pump-3-150x150.jpg"></a>
     </div>
 
     <div class="single-img">

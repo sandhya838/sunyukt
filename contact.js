@@ -11,12 +11,41 @@ const contact= `<!DOCTYPE html>
 <body>
 <div class="contact-in">
     <h3><u>Contact Us</u></h3>
-<div class="contact-form">
+    <div class="contact-form">
     <form name="contact" method="POST" data-netlify="true">
-        <label>Name<input type="text" name="name" placeholder="Enter Full Name" class="contact-form-txt" required /></label><br>
-        <label>Email<input type="text" name="email" placeholder="Enter Your Email" class="contact-form-txt" required /></label><br>
-        <label>Subject<input type="text" name="subject" placeholder="Enter Subject" class="contact-form-txt" required /></label>
-        <label name="message">Message<textarea placeholder="Message" class="contact-form-txtarea"required ></textarea></label>
+    <div class="card1-container">
+    <div class="office-card">
+        <div class="card-container">
+        <a>
+            <h1 class="office-name"><u class="office-name">Corporate Office</u></h1>
+        </a>
+        <h2 class="company-name"><b>Sunyukt Electrosolar & IT solutions Pvt. Ltd.</b></h2>
+        <p class="company-addr">N. D. Tower, B-301, CTS 170, Dnyaneshwar Nagar,
+            Akurdi, Pune-411035, Maharashtra, India
+        </p>
+        <span class"card-span"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+            <bold>+91 9689447169</bold>&nbsp;
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:sales@sunyukt.com" target="_blank"
+                rel="noopener" style="font-family: 'Times New Roman', Times, serif;">&nbsp;
+                sunilshewale@<wbr>sunyukt.com</a></i></span> <br>
+    </div></div>
+    <div class="office-card">
+        <div class="card-container">
+        <a>
+            <h1 class="office-name"><u class="office-name">Branch Office</u></h1>
+        </a>
+        <h2 class="company-name"><b>Sunyukt Electrosolar & IT solutions Pvt. Ltd.</b></h2>
+        <p class="company-addr">B-243, 2nd Floor, Jai Ganesh Vision, Near Inox
+            Theater, Akurdi,Pune-411035, Maharashtra, India
+        </p>
+        <span class"card-span"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+            <bold>+91 9689447169</bold>&nbsp;
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:sales@sunyukt.com" target="_blank"
+                rel="noopener" style="font-family: 'Times New Roman', Times, serif;">&nbsp;sunilshewale@<wbr>sunyukt.com</a></i></span> <br>
+    </div></div>
+    </div>
     
     
 </div>
@@ -26,60 +55,101 @@ const contact= `<!DOCTYPE html>
 </div>
 <br><br>
 
-<div class="captcha">
-    <div class="spinner">
-        <label>
-            <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
-            <span class="checkmark"><span>&nbsp;</span></span>
-        </label>
-    </div>
-    <div class="text">
-        I'm not a robot
-    </div>
-    <div class="logo">
-        <img src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/" />
-        <p>reCAPTCHA</p>
-        <small>Privacy - Terms</small>
-    </div>
-</div><br><br><br>
-<button class="button" name="submit">Send</button>
+
 </form>
 
 </div>
 
-<div class="card1-container">
-<div class="office-card">
-    <div class="card-container">
-    <a>
-        <h1 class="office-name"><u class="office-name">Corporate Office</u></h1>
-    </a>
-    <h2 class="company-name"><b>Sunyukt Electrosolar & IT solutions Pvt. Ltd.</b></h2>
-    <p class="company-addr">N. D. Tower, B-301, CTS 170, Dnyaneshwar Nagar,
-        Akurdi, Pune-411035, Maharashtra, India
-    </p>
-    <span class"card-span"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
-        <bold>+91 9689447169</bold>&nbsp;
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        <a href="mailto:sales@sunyukt.com" target="_blank"
-            rel="noopener" style="font-family: 'Times New Roman', Times, serif;">&nbsp;
-            sunilshewale@<wbr>sunyukt.com</a></i></span> <br>
-</div></div>
-<div class="office-card">
-    <div class="card-container">
-    <a>
-        <h1 class="office-name"><u class="office-name">Branch Office</u></h1>
-    </a>
-    <h2 class="company-name"><b>Sunyukt Electrosolar & IT solutions Pvt. Ltd.</b></h2>
-    <p class="company-addr">B-243, 2nd Floor, Jai Ganesh Vision, Near Inox
-        Theater, Akurdi,Pune-411035, Maharashtra, India
-    </p>
-    <span class"card-span"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
-        <bold>+91 9689447169</bold>&nbsp;
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        <a href="mailto:sales@sunyukt.com" target="_blank"
-            rel="noopener" style="font-family: 'Times New Roman', Times, serif;">&nbsp;sunilshewale@<wbr>sunyukt.com</a></i></span> <br>
-</div></div>
-</div>
+
 
 </body>
 </html>`
+
+
+// orignal code
+
+// <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//     <meta charset="UTF-8">
+//     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>Contact
+//     </title>
+//     <link rel="stylesheet" href="./contact.css">
+// </head>
+// <body>
+// <div class="contact-in">
+//     <h3><u>Contact Us</u></h3>
+//     <div class="contact-form">
+//     <form name="contact" method="POST" data-netlify="true">
+//         <label>Name<input type="text" name="name" placeholder="Enter Full Name" class="contact-form-txt" required /></label><br>
+//         <label>Email<input type="text" name="email" placeholder="Enter Your Email" class="contact-form-txt" required /></label><br>
+//         <label>Subject<input type="text" name="subject" placeholder="Enter Subject" class="contact-form-txt" required /></label>
+//         <label name="message">Message<textarea placeholder="Message" class="contact-form-txtarea"required ></textarea></label>
+    
+    
+// </div>
+// <div class="contact-map">
+//     <iframe
+//         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30243.556264071412!2d73.76274736522782!3d18.644037689566854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9c02954e8cb%3A0x525d708de1d526f2!2sAkurdi%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1627092732968!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+// </div>
+// <br><br>
+
+// <div class="captcha">
+//     <div class="spinner">
+//         <label>
+//             <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
+//             <span class="checkmark"><span>&nbsp;</span></span>
+//         </label>
+//     </div>
+//     <div class="text">
+//         I'm not a robot
+//     </div>
+//     <div class="logo">
+//         <img src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/" />
+//         <p>reCAPTCHA</p>
+//         <small>Privacy - Terms</small>
+//     </div>
+// </div><br><br><br>
+// <button class="button" name="submit">Send</button>
+// </form>
+
+// </div>
+
+// <div class="card1-container">
+// <div class="office-card">
+//     <div class="card-container">
+//     <a>
+//         <h1 class="office-name"><u class="office-name">Corporate Office</u></h1>
+//     </a>
+//     <h2 class="company-name"><b>Sunyukt Electrosolar & IT solutions Pvt. Ltd.</b></h2>
+//     <p class="company-addr">N. D. Tower, B-301, CTS 170, Dnyaneshwar Nagar,
+//         Akurdi, Pune-411035, Maharashtra, India
+//     </p>
+//     <span class"card-span"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+//         <bold>+91 9689447169</bold>&nbsp;
+//         <i class="fa fa-envelope" aria-hidden="true"></i>
+//         <a href="mailto:sales@sunyukt.com" target="_blank"
+//             rel="noopener" style="font-family: 'Times New Roman', Times, serif;">&nbsp;
+//             sunilshewale@<wbr>sunyukt.com</a></i></span> <br>
+// </div></div>
+// <div class="office-card">
+//     <div class="card-container">
+//     <a>
+//         <h1 class="office-name"><u class="office-name">Branch Office</u></h1>
+//     </a>
+//     <h2 class="company-name"><b>Sunyukt Electrosolar & IT solutions Pvt. Ltd.</b></h2>
+//     <p class="company-addr">B-243, 2nd Floor, Jai Ganesh Vision, Near Inox
+//         Theater, Akurdi,Pune-411035, Maharashtra, India
+//     </p>
+//     <span class"card-span"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+//         <bold>+91 9689447169</bold>&nbsp;
+//         <i class="fa fa-envelope" aria-hidden="true"></i>
+//         <a href="mailto:sales@sunyukt.com" target="_blank"
+//             rel="noopener" style="font-family: 'Times New Roman', Times, serif;">&nbsp;sunilshewale@<wbr>sunyukt.com</a></i></span> <br>
+// </div></div>
+// </div>
+
+// </body>
+// </html>
