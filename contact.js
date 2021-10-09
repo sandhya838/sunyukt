@@ -58,7 +58,7 @@ const contact= `<!DOCTYPE html>
         Akurdi, Pune-411035, Maharashtra, India
     </p>
     <span class"card-span"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
-        <strong>+91 9689447169</strong>&nbsp;
+        <bold>+91 9689447169</bold>&nbsp;
         <i class="fa fa-envelope" aria-hidden="true"></i>
         <a href="mailto:sales@sunyukt.com" target="_blank"
             rel="noopener" style="font-family: 'Times New Roman', Times, serif;">&nbsp;
@@ -74,7 +74,7 @@ const contact= `<!DOCTYPE html>
         Theater, Akurdi,Pune-411035, Maharashtra, India
     </p>
     <span class"card-span"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
-        <strong>+91 9689447169</strong>&nbsp;
+        <bold>+91 9689447169</bold>&nbsp;
         <i class="fa fa-envelope" aria-hidden="true"></i>
         <a href="mailto:sales@sunyukt.com" target="_blank"
             rel="noopener" style="font-family: 'Times New Roman', Times, serif;">&nbsp;sunilshewale@<wbr>sunyukt.com</a></i></span> <br>

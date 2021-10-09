@@ -26,6 +26,10 @@ body{
 }
 .quick-contact-list li{
     list-style: none;
+    /* border-left: 1px solid #fff; */
+}
+.quick-contact-list .quick-email:nth-child(2), .contactMe:nth-child(3){
+    list-style: none;
     border-left: 1px solid #fff;
 }
 li>.quick-contact-a{
@@ -714,6 +718,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .elementor-widget-container-card{
     width: 250px;
+    height: 85px;
+    transition: dsagytrfbvawqUDA .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 10px 0px rgb(32 33 89 / 50%);
+}
+.elementor-widget-container-card-main{
+    width: 250px;
     height: 115px;
     transition: dsagytrfbvawqUDA .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
     margin-bottom: 40px;
@@ -733,7 +744,9 @@ h1, h2, h3, h4, h5, h6 {
 .fig-img{
     padding-left: 350px;
 }
-
+a{
+    color: #130c6d;
+}
 
 
 
