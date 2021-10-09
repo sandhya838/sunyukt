@@ -944,7 +944,7 @@ a{
         margin-top: 40px;
         margin-left: 77px;
         height: 115px;
-        width: 452px;
+        width: 477px;
     }
     .images {
         margin-left: 40px;
@@ -1080,6 +1080,10 @@ p{
     display: flex;
     font-family: "Roboto", Sans-serif;
 }
+.elementor-widget-container-card-main{
+    width: 402px;
+    height: 163px;
+}
 .elementor-container-card{
     margin-left: 15px;
 }
@@ -1128,5 +1132,8 @@ p{
 .obj-para-2{
     display: flex;
     flex-direction: column;
+}
+.elementor-element .elementor-widget-container {
+    height:652px;
 }
 }

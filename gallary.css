@@ -71,4 +71,11 @@ img:hover{
     .hr-tag-gal {
         width: 86%;
     }
+    .gallaryBody{
+        width: 100%;
+    margin-left: -80px;
+    }
+    .galcontainer h2{
+        width: 100%;
+    }
 }

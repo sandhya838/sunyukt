@@ -1,4 +1,5 @@
 const gallary = `<div class="galcontainer">
+<div class="gallaryBody">
 <h1>Synopsis of project</h1>
 <hr class="hr-tag-gal">
 <h2>2KVA Roof Top, Uran</h2>
@@ -168,7 +169,7 @@ const gallary = `<div class="galcontainer">
         <a><img src=""></a>
     </div>
 </div><br><br>
-<hr class="hr-tag-gal">
+</div>
 
 
 
