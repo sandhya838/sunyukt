@@ -10,7 +10,7 @@ const contact= `<!DOCTYPE html>
 </head>
 <body>
 <div class="contact-in">
-    <h1><u>Contact Us</u></h1>
+    <h3><u>Contact Us</u></h3>
 <div class="contact-form">
     <form name="contact" method="POST" data-netlify="true">
         <label>Name<input type="text" name="name" placeholder="Enter Full Name" class="contact-form-txt" required /></label><br>
