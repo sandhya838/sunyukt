@@ -349,7 +349,8 @@ iframe{
     margin-left: 60px;
 	}
 	.card1-container {
-		margin-left: 30px;
+		/* margin-left: 30px; */
+		margin-left: -28px;
 		width: 100%;
 		flex-direction: column;
 	}
